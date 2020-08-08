@@ -10,6 +10,7 @@ docker exec -it kafka /bin/sh
 cd /opt/kafka
 
 Lista de topicos creados 
+
 ./kafka-topics.sh --list --zookeeper zookeeper:2181
 
 Iniciar un Consumidor 
