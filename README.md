@@ -1,4 +1,4 @@
-# ejemplo-kafka
+# Ejemplo-kafka
 
 ## Esto es un ejemplo usando Stream Cloud + kafka 
 
