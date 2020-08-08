@@ -17,5 +17,6 @@ Iniciar un Consumidor
 kafka-console-consumer.sh --bootstrap-server localhost:9092 --from-beginning --topic topic-cfsanchez
 
 Bajar el kafka y eliminarlo
+
 docker-compose stop
 docker-compose down --volumes
