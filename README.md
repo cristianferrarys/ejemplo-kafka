@@ -1,22 +1,25 @@
 # ejemplo-kafka
-Esto es un ejemplo usando Stream Cloud + kafka 
 
-docker-compose -f docker-compose.yaml up -d
+## Esto es un ejemplo usando Stream Cloud + kafka 
 
-docker ps 
+ ```docker-compose -f docker-compose.yaml up -d```
 
-docker exec -it kafka /bin/sh
+```docker ps ```
 
-cd /opt/kafka
+```docker exec -it kafka /bin/sh```
 
-Lista de topicos creados 
+```cd /opt/kafka ```
 
-./kafka-topics.sh --list --zookeeper zookeeper:2181
+## Lista de topicos creados 
 
-Iniciar un Consumidor 
-kafka-console-consumer.sh --bootstrap-server localhost:9092 --from-beginning --topic topic-cfsanchez
+```./kafka-topics.sh --list --zookeeper zookeeper:2181```
 
-Bajar el kafka y eliminarlo
+## Iniciar un Consumidor 
 
-docker-compose stop
-docker-compose down --volumes
+``` kafka-console-consumer.sh --bootstrap-server localhost:9092 --from-beginning --topic topic-cfsanchez```
+
+## Bajar el kafka y eliminarlo
+
+``` docker-compose stop```
+
+```docker-compose down --volumes```
